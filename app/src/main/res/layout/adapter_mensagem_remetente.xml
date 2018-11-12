@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginLeft="100dp">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_balao_remetente"
+            android:backgroundTint="@color/balaoRemetente"
+            android:layout_margin="6dp"
+            android:layout_alignParentRight="true">
+
+        <TextView
+                android:text="hello world"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textMensagemTexto" android:textSize="18sp"/>
+    </LinearLayout>
+</RelativeLayout>

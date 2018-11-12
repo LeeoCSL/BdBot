@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BdBot</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+    <string name="primeiraMensagem">Olá! Eu sou o BDBot. Serei seu assistente quando você quiser falar sobre mundo
+        <b>conceitual</b>,
+        <b>físico</b> e
+        <b>lógico!</b> Vamos lá? :)
+    </string>
+    <string name="explicacaoMundoConceitual">Mundo conceitual: Legal! Você sabia que o mundo conceital possui
+        <b>entidade</b> e
+        <b>relacionamento?</b>
+    </string>
+    <string name="explicacaoMundoLogico">Mundo lógico: É lógico que você sabe que o mundo lógico possui
+        <b>relação</b>, certo?
+    </string>
+    <string name="explicacaoMundoFisico">Mundo físico: No mundo físico, temos as
+        <b>tabelas</b>.
+    </string>
+    <string name="explicacaoEntidade">A Entidade é uma ideia do mundo abstrato. É algo que é lembrado, distinguível e único.
+    </string>
+    <string name="explicacaoRelacionamento">Relacionamento é uma associação entre as entidades.
+    </string>
+    <string name="explicacaoRelacao">Relação é uma....
+    </string>
+    <string name="explicacaoTabela">Tabela é um conjunto de dados dispostos em número infinito de colunas e número ilimitado de linhas (ou tuplas).
+    </string>
+
+
+</resources>
