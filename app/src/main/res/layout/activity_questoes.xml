@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".QuestoesActivity">
+        tools:context=".QuestoesActivity" android:background="@drawable/bg_chat">
 
     <TextView
             android:text="Questão 1"
@@ -23,7 +23,7 @@
             android:layout_marginLeft="16dp" android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="16dp" android:layout_marginRight="16dp"/>
     <TextView
-            android:text="a) aaaaaaaaaaaa"
+            android:text="a) aaaaa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tvAlternativaA" android:layout_marginTop="128dp"
@@ -35,17 +35,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tvAlternativaB" android:layout_marginTop="32dp"
-            app:layout_constraintTop_toBottomOf="@+id/tvAlternativaA" app:layout_constraintStart_toStartOf="@+id/tvAlternativaA"
+            app:layout_constraintTop_toBottomOf="@+id/tvAlternativaA"
+            app:layout_constraintStart_toStartOf="@+id/tvAlternativaA"
             app:layout_constraintEnd_toEndOf="@+id/tvAlternativaA"/>
     <TextView
-            android:text="c) cccccc"
+            android:text="c) ccccc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tvAlternativaC" app:layout_constraintStart_toStartOf="@+id/tvAlternativaB"
             app:layout_constraintEnd_toEndOf="@+id/tvAlternativaB" android:layout_marginTop="32dp"
             app:layout_constraintTop_toBottomOf="@+id/tvAlternativaB"/>
     <TextView
-            android:text="d) ddddddddd"
+            android:text="d) ddddd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tvAlternativaD" android:layout_marginTop="32dp"
@@ -60,5 +61,15 @@
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginLeft="32dp"
             android:layout_marginStart="32dp" android:layout_marginEnd="32dp" android:layout_marginRight="32dp"
-            android:background="@drawable/btn_borda_red"/>
+            android:background="@drawable/btn_borda_red" android:visibility="visible"/>
+    <Button
+            android:text="Proxima"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnProxima"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="32dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="32dp" android:layout_marginRight="32dp"
+            android:background="@drawable/btn_borda_red" android:visibility="gone"/>
 </android.support.constraint.ConstraintLayout>

@@ -1,6 +1,7 @@
 package leonardoribeiro.bdbot;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -125,8 +126,14 @@ public class MainActivity extends AppCompatActivity {
         Mensagem msgUser = new Mensagem();
         msgUser.setIdUser(idBot);
         msgUser.setMensagem(respostasBot.getMensagemBot(mensagem, this));
+
         mensagens.add(msgUser);
         populaRecycler();
     }
 
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(this, FirstScreen.class));
+        finish();
+    }
 }

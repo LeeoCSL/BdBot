@@ -21,15 +21,29 @@
     <string name="explicacaoMundoFisico">Mundo físico: No mundo físico, temos as
         <b>tabelas</b>.
     </string>
-    <string name="explicacaoEntidade">A Entidade é uma ideia do mundo abstrato. É algo que é lembrado, distinguível e
-        único.
+    <string name="explicacaoEntidade">Uma Entidade Forte é uma ideia do mundo abstrato. É algo que é lembrado,
+        distinguível e único. Ah! E ela também pode ser reduzida. Também temos as Entidades Fracas.
     </string>
-    <string name="explicacaoRelacionamento">Relacionamento é uma associação entre as entidades.
+    <string name="explicacaoEntidadeFraca">Uma Entidade Fraca é lembrada, única mas não é disinguível. Em outras
+        palavras, não tem Atributo Identificador. Lembrando que uma Entidade Fraca sempre deve ter ligação em uma
+        Entidade Forte. Podemos voltar ao início?
     </string>
-    <string name="explicacaoRelacao">Relação é uma....
+    <string name="explicacaoRelacionamento">Relacionamento é uma associação entre as entidades. Cada relação possuí sua
+        respectiva cardinalidade.
+    </string>
+    <string name="explicacaoRelacao">Relação é o resultado cartesiado de dois relacionamentos. Podemos voltar ao início?
     </string>
     <string name="explicacaoTabela">Tabela é um conjunto de dados dispostos em número infinito de colunas e número
         ilimitado de linhas (ou tuplas).
+    </string>
+    <string name="explicacaoTupla">Tuplas são pedaços do mundo real, armazenados dentro de uma linha em uma tabela. Os
+        dados referentes a cada tabela são indicados pelo domínio da mesma.
+    </string>
+
+    <string name="explicacaoDominio">Domínio é o conjunto de valores de uma tabela, ok? Podemos voltar ao início?
+    </string>
+    <string name="explicacaoCardinalidade">Cardinalidade indica o grau de relação entre duas entidades ou tabelas.
+        Podemos voltar ao início?
     </string>
 
 
