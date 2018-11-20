@@ -9,6 +9,7 @@ import android.widget.Button;
 public class FirstScreen extends AppCompatActivity {
 
     Button btnIniciar;
+    Button btnQuest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,12 +17,24 @@ public class FirstScreen extends AppCompatActivity {
         setContentView(R.layout.activity_first_screen);
 
         btnIniciar = findViewById(R.id.btnIniciar);
+        btnQuest = findViewById(R.id.btnQuest);
+
 
         btnIniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(FirstScreen.this, MainActivity.class));
+                finish();
             }
         });
+
+        btnQuest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FirstScreen.this, QuestoesActivity.class));
+                finish();
+            }
+        });
+
     }
 }
